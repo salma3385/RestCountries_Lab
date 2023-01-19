@@ -97,13 +97,13 @@ const inputBar =document.querySelector(".input-bar")
    const displayCountries = (data) => {
     data.forEach(country => {
     
-        const section = document.getElementById('section')
+        const section = document.getElementById('container')
         const header = document.createElement('h2')
 
         result.appendchild(section);
     
     //section.innerHTML = <section>`${country.name}` </section>
-        //console.log(country.name);
+        console.log(country.name);
     })
    }
   
